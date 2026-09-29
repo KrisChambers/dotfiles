@@ -1,0 +1,5 @@
+add_newline = true
+
+[character]
+success_symbol = "[\u276F](bold purple)"
+error_symbol = "[\u276F](bold red)"
