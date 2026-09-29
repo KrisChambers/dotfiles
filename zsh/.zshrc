@@ -20,3 +20,6 @@ eval "$(starship init zsh)"
 export EDITOR=nvim
 export VISUAL=nvim
 
+if [ -z "$WAYLAND_DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
+    exec niri-session
+fi
