@@ -11,7 +11,12 @@ zstyle :compinstall filename '/home/kris/.zshrc'
 autoload -Uz compinit
 compinit
 
+# End of lines added by compinstall
+
 # Starship Prompt
 eval "$(starship init zsh)"
 
-# End of lines added by compinstall
+# User Config
+export EDITOR=nvim
+export VISUAL=nvim
+
