@@ -15,6 +15,7 @@ compinit
 
 # Starship Prompt
 eval "$(starship init zsh)"
+eval "$(direnv hook zsh)"
 
 # User Config
 export EDITOR=nvim
@@ -33,3 +34,5 @@ bindkey -v '^W' backward-kill-word # Ctrl-W should kill the whole world in inser
 
 # Make switching modes faster when hitting ESC
 export KEYTIMEOUT=1
+
+
