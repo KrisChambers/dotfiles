@@ -35,4 +35,4 @@ bindkey -v '^W' backward-kill-word # Ctrl-W should kill the whole world in inser
 # Make switching modes faster when hitting ESC
 export KEYTIMEOUT=1
 
-
+export PATH="/home/kris/.local/bin:$PATH"
